@@ -19,4 +19,9 @@ class Vehicle {
     void display() {
         // TODO
     }
+    
+    public void getCount() {
+    	
+    }
+    
 }
