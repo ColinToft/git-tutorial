@@ -1,4 +1,4 @@
-public class Car extends Vehicle {
+public class KidnapperVan extends Vehicle {
     private int doors; // number of doors
 
     // Constructor
@@ -14,7 +14,7 @@ public class Car extends Vehicle {
     }
 
     public static void main(String[] args) {
-        Car car = new Car(4, "red", 200, 4);
+        Car car = new Car(4, "white", 200, 4);
         car.display();
     }
 }
