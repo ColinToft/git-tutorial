@@ -1,0 +1,22 @@
+public class Motorcycle extends Vehicle {
+	private int doors; //the number of wheels 
+	
+	//Constructor
+	
+	Motorcycle(int passengers, String color, int maxSpeed, int doors){ 
+		super(passengers, color, maxSpeed);
+		this.doors = doors;
+	}
+	
+	//Display the car's details
+	void display() {
+		super.display();
+		System.out.println("Wheels: " + doors);
+		
+	}
+	
+	public static void main(String args[]) {
+		Motorcycle motorcycle = new Motorcycle(2, "red", 250, 0);
+		motorcycle.display();
+	}
+}
