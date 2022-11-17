@@ -2,8 +2,8 @@ public class Car extends Vehicle {
     private int doors; // number of doors
 
     // Constructor
-    Car(int passengers, String colour, int maxSpeed, int doors) {
-        super(passengers, colour, maxSpeed);
+    Car(int passengers, String colour, int maxSpeed, int wheels, int doors) {
+        super(passengers, colour, maxSpeed, wheels);
         this.doors = doors;
     }
 
@@ -14,7 +14,7 @@ public class Car extends Vehicle {
     }
 
     public static void main(String[] args) {
-        Car car = new Car(4, "red", 200, 4);
+        Car car = new Car(4, "red", 200, 4,4);
         car.display();
     }
 }
