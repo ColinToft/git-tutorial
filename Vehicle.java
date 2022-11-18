@@ -6,12 +6,15 @@ class Vehicle {
     private String colour; // colour of the vehicle
 
     private int maxSpeed; // maximum speed of the vehicle in km/h
+    
+    private int wheels;//
 
     // Constructor
-    Vehicle(int passengers, String colour, int maxSpeed) {
+    Vehicle(int passengers, String colour, int maxSpeed, int wheels) {
         this.passengers = passengers;
         this.colour = colour;
         this.maxSpeed = maxSpeed;
+        this.wheels=wheels;
         count++;
     }
 
